@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  19 SEP 2017 17:08
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  26 SEP 2017 17:15
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Master.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.119 seconds
+luaotfload | main : initialization completed in 0.109 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1112,13 +1112,13 @@ Here is how much of LuaTeX's memory you used:
  418 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 5 attribute, 54 glue_spec, 5 attribute_list
 , 2 write nodes
-   avail lists: 1:1,2:452,3:172,4:33,5:128,6:3520,7:780,8:34,9:226,10:25,11:361
+   avail lists: 1:1,2:452,3:172,4:33,5:128,6:3520,7:793,8:34,9:226,10:25,11:361
  20857 multiletter control sequences out of 65536+600000
  32 fonts using 8669295 bytes
  35i,12n,68p,994b,533s stack positions out of 5000i,500n,10000p,200000b,100000s
 </Library/Fonts/Microsoft/Arial Bold.ttf></Library/Fonts/Microsoft/Arial Italic.
 ttf></Library/Fonts/Microsoft/Arial.ttf>
-Output written on NAH_CV_Master.pdf (4 pages, 83369 bytes).
+Output written on NAH_CV_Master.pdf (4 pages, 83354 bytes).
 
 PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
