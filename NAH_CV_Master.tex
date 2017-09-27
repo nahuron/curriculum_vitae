@@ -39,7 +39,7 @@
 
 %commands for CV
 \newcommand{\main}{\par\noindent\hspace*{0pt}\ignorespaces} 
-\newcommand{\sub}{\par\noindent\hspace*{10pt}\ignorespaces}
+\newcommand{\sub}{\par\noindent\hspace*{10pt}\ignorespaces\hangindent=2ex}
 \newcommand{\explanation}[1]{%
 \begin{adjustwidth}{1in}{1in}
 #1
@@ -50,11 +50,12 @@
 \newdateformat{daymonthyeardate}{%
  \THEDAY\ \monthname[\THEMONTH] \THEYEAR}
 
+
 %Header and Footer config%
 \pagestyle{fancy}
 %Header
 \lhead{\footnotesize Nicholas A.\ Huron -- \emph{Curriculum Vitae}}
-\rhead{\footnotesize \daymonthyeardate\today}
+\rhead{\footnotesize Updated \daymonthyeardate\today}
 %Footer
 \cfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % depending on where you want the page numbers
 
@@ -100,7 +101,7 @@ Magna Cum Laude
 2017--\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Graduate Student, Integrative Ecology Lab\\
+\emph{Graduate Student}, Integrative Ecology Lab\\
 \textbullet\hspace{1pt} Thesis: \enquote{TBD}\\
 \textbullet\hspace{1pt} Study of biodiversity and ecology of the Caribbean, especially of herpetofauna\\
 \end{minipage}}
@@ -109,36 +110,36 @@ Graduate Student, Integrative Ecology Lab\\
 2014--2017\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Research Assistant, Cameron Siler Lab\\
+\emph{Research Assistant}, Cameron Siler Lab\\
 \textbullet\hspace{1pt} Study of the biodiversity and systematics of Philippine herpetofauna\\
-\textbullet\hspace{1pt} Specimens/tissues curation for research in the Sam Noble Oklahoma Museum of Natural History (SNOMNH)\\
+\textbullet\hspace{1pt} Specimen/tissue curation for research in the Sam Noble Oklahoma Museum of Natural History (SNOMNH)\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2017--2017\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Research Assistant: \enquote{Tracking the Emergence of Infectious Disease Among Amphibian Species of Greatest Conservation Need---Amphibian Surveys of Wildlife Management Areas in Oklahoma to Determine Current Distribution, Status, and Health of Native Communities}, Oklahoma Department of Wildlife Conservation\\
-\textbullet\hspace{1pt} Lead expeditions to survey and collect data for amphibians throughout Oklahoma\\
+\emph{Research Assistant}: \enquote{Tracking the Emergence of Infectious Disease Among Amphibian Species of Greatest Conservation Need---Amphibian Surveys of Wildlife Management Areas in Oklahoma to Determine Current Distribution, Status, and Health of Native Communities}, Oklahoma Department of Wildlife Conservation\\
+\textbullet\hspace{1pt} Lead expeditions to collect data for amphibians throughout Oklahoma\\
 \textbullet\hspace{1pt} Subsample and prepare tissues for infectious disease screening\\
-\textbullet\hspace{1pt} Prepare and catalogue vouchered specimens in SNOMNH\\
+\textbullet\hspace{1pt} Curate and catalogue vouchered specimens in SNOMNH\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2015--2016\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Herpetology Curatorial Assistant, Sam Noble OK Museum of Natural History\\
-\textbullet\hspace{1pt} Conduct relabeling of specimens to update collection taxonomy\\
-\textbullet\hspace{1pt} Survey, collect, and process specimens for deposition in collection\\
-\textbullet\hspace{1pt} Entry/validation of specimen data (morphology, locality, etc.) into collection database\\
+\emph{Herpetology Curatorial Assistant}, Sam Noble OK Museum of Natural History\\
+\textbullet\hspace{1pt} Conduct relabeling to update collection taxonomy\\
+\textbullet\hspace{1pt} Survey, catch, and process specimens for deposition in collection\\
+\textbullet\hspace{1pt} Entry/review of specimen collection database (morphology, locality, etc.)\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2015--2015\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Mammology Curatorial Assistant, Sam Noble OK Museum of Natural History\\
+\emph{Mammology Curatorial Assistant}, Sam Noble OK Museum of Natural History\\
 \textbullet\hspace{1pt} Inventory/validate records for current specimens in the mammal collection\\
 \textbullet\hspace{1pt} Entry of specimen data (morphology, locality, etc.) into collection database\\
 \end{minipage}}
@@ -147,28 +148,28 @@ Mammology Curatorial Assistant, Sam Noble OK Museum of Natural History\\
 2013--2014\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Research Assistant, Pepperdine University\\
+\emph{Research Assistant}, Pepperdine University\\
 \textbullet\hspace{1pt} Organize and carry out annual stream surveys of SMM streams\\
-\textbullet\hspace{1pt} Review professional articles prior to submission to journals\\
-\textbullet\hspace{1pt} Compile and revise data into a central database of amphibian surveys that began in 1991\\
-\textbullet\hspace{1pt} Meet weekly with supervisor (Dr. Lee Kats) to discuss ongoing and future research projects\\
+\textbullet\hspace{1pt} Provide critical feedback on studies prior to journal submission\\
+\textbullet\hspace{1pt} Compile data into a central database of amphibian surveys that began in 1991\\
+\textbullet\hspace{1pt} Meet weekly with supervisor to discuss research projects\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2013--2014\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Administrative Assistant, Pepperdine University\\
-\textbullet\hspace{1pt} Assist the Vice Provost for Research and Strategic Initiatives with the Waves of Innovation research funding program\\
-\textbullet\hspace{1pt} Review research proposals, presentations, and official University documents before submission to university offices and external review committees\\
-\textbullet\hspace{1pt} Interact with high profile University members and coordinate meetings between different committees and the Vice Provost\\
+\emph{Administrative Assistant}, Pepperdine University\\
+\textbullet\hspace{1pt} Assist the Vice Provost for Research with the Waves of Innovation funding program\\
+\textbullet\hspace{1pt} Final review proposals, presentations, and official documents before submission\\
+\textbullet\hspace{1pt} Interact with high profile University members and coordinate committee meetings\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2013--2014\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Research Student, Rodney Honeycutt Lab\\
+\emph{Research Student}, Rodney Honeycutt Lab\\
 \textbullet\hspace{1pt} Use genetic lab techniques to analyze population phylogeography\\
 \textbullet\hspace{1pt} Study local populations of \textit{Taricha torosa}\\
 \end{minipage}}
@@ -177,9 +178,9 @@ Research Student, Rodney Honeycutt Lab\\
 2009--2014\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Research Student, Lee Kats Lab\\
+\emph{Research Student}, Lee Kats Lab\\
 \textbullet\hspace{1pt} Investigate behavioral ecology in the streams of the Santa Monica Mountains (SMM) and the rainforest of the La Selva Research Station in Costa Rica\\
-\textbullet\hspace{1pt} Regular field surveys of the streams in the SMM for USGS and State Park Services and corresponding data entry\\
+\textbullet\hspace{1pt} Regular stream surveys in the SMM for USGS and State Park Services\\
 \textbullet\hspace{1pt} Annual presentation of current research at SCCUR (see below for list)\\
 \end{minipage}}
 
@@ -187,21 +188,21 @@ Research Student, Lee Kats Lab\\
 2013--2013\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Restoration Ecologist, Mountains Restoration Trust (MRT)\\
+\emph{Restoration Ecologist}, Mountains Restoration Trust (MRT)\\
 \textbullet\hspace{1pt} Head up the invasive crayfish removal project (CRP) at Tapia Park (Malibu Creek)\\
-\textbullet\hspace{1pt} Lead invasive species education side project which implemented both remote video and in person instruction of invasion ecology\\
-\textbullet\hspace{1pt} Lead volunteer teams to trap, characterize, and remove invasive \textit{Procambarus clarkii}\\
-\textbullet\hspace{1pt} Manage the CRP data set and collaborate with local scientists on research avenues\\
+\textbullet\hspace{1pt} Supervise trapping, characterization, and removal of invasive \textit{Procambarus clarkii}\\
+\textbullet\hspace{1pt} Lead invasion ecology education side project via remote video and in person instruction\\
+\textbullet\hspace{1pt} Manage the CRP data set and collaborate with local scientists\\
 \end{minipage}}
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2009--2013\\
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Office Assistant, Pepperdine University Seaver Dean's Office\\
-\textbullet\hspace{1pt} Tasks include: answering phones, greeting visitors (e.g., prospective students), organizing mailings, filing/scanning pertinent documents (including confidential files)\\
-\textbullet\hspace{1pt} Assist dean's office event preparation, including faculty and research award ceremonies\\
-\textbullet\hspace{1pt} Facilitate the aforementioned events and provide presentation technical support (A/V)\\
+\emph{Office Assistant}, Pepperdine University Seaver Dean's Office\\
+\textbullet\hspace{1pt} Greet visitors, digitize documents, and facilitate interdepartmental communications\\
+\textbullet\hspace{1pt} Assist event preparation for faculty/research award ceremonies\\
+\textbullet\hspace{1pt} Support the aforementioned events in person and provide presentation technical support\\
 \end{minipage}}
 
 %Research Interests
@@ -216,56 +217,56 @@ Office Assistant, Pepperdine University Seaver Dean's Office\\
 2016
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Introductory Biology: Molecules, Cells, and Physiology, University of Oklahoma (TA, 1 semester)
+\emph{Introductory Biology: Molecules, Cells, and Physiology}, University of Oklahoma (TA, 1 semester)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2016
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Field Herpetology, University of Oklahoma (TA, 2 weeks)
+\emph{Field Herpetology}, University of Oklahoma (TA, 2 weeks)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2015
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Human Physiology, University of Oklahoma (TA, 1 semester)
+\emph{Human Physiology}, University of Oklahoma (TA, 1 semester)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2014
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Introductory Zoology, University of Oklahoma (TA, 1 semester)
+\emph{Introductory Zoology}, University of Oklahoma (TA, 1 semester)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2012
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Introduction to Ecology, Pepperdine University (Undergraduate TA, 1 semester)
+\emph{Introduction to Ecology}, Pepperdine University (Undergraduate TA, 1 semester)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2011--2012
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Keck Research Seminar, Pepperdine University (Student Mentor, 2 semesters)
+\emph{Keck Research Seminar}, Pepperdine University (Student Mentor, 2 semesters)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2010--2013
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-Cellular Biology, Pepperdine University (Undergraduate TA, 4 semesters)
+\emph{Cellular Biology}, Pepperdine University (Undergraduate TA, 4 semesters)
 \end{minipage}}%
 
 \main{\begin{minipage}[t]{0.12\textwidth}
 2010--2011
 \end{minipage}%
 \begin{minipage}[t]{0.85\textwidth}
-General Chemistry, Pepperdine University (Tutor, 2 semesters)
+\emph{General Chemistry}, Pepperdine University (Tutor, 2 semesters)
 \end{minipage}}\\
 
 %Publications
@@ -278,6 +279,7 @@ General Chemistry, Pepperdine University (Tutor, 2 semesters)
   \item Marhanka, EC, Watters, JL, \textbf{Huron, NA}, McMillin, SL, Winfrey, CC, Curtis, DJ, Davis, DR, Farkas, JK, Kerby, JL, Siler, CD. 2017. Detection of high prevalence of \textit{Batrachochytrium dendrobatidis} in amphibians from southern Oklahoma, USA. Herpetological Review 48:70--74.
   \item Siler, CD, Davis, DR, Freitas, ES, \textbf{Huron, NA}, Geheber, AD, Watters, JL, Penrod, ML, Pape{{\c{s}}}, M, Amrein, A, Anwar, A, Cooper, D, Hein, T, Manning, A, Patel, N, Pinaroc, L, Diesmos, AC, Diesmos, ML, Oliveros, CH, Brown, RM. 2016. Description of a new species of Slender Skink of the \textit{Brachymeles bonitae} Complex (Reptilia: Squamata: Scincidae) from the northern Philippines. Zootaxa, 4132:15--29.
   \item \textbf{Huron, NA}, Realubit, NDC, Cobb, KA, Brown, JC, Bergmann, P, Morinaga, G, Diesmos, AC, Diesmos, ML, Brown, RM, Siler, CD. 2016. Discovery of new island populations of the recently described False Geckos (\textit{Pseudogekko pungkaypinit} and \textit{Pseudogekko ditoy}): Conservation implications for the eastern Philippines. Herpetological Review, 47:1--4.
+  \pagebreak
   \item Diesmos, AC, Waters, JL, \textbf{Huron, NA}, Davis, DR, Alcala, AC, Crombie, RI, Afuang, LE, Gee-Das, G, Sison, RV, Sanguila, MB, Penrod, ML, Labonte, MJ, Davey, CS, Leone, EA, Diesmos, ML, Sy, EY, Welton, LJ, Brown, RM, Siler, CS. 2015. Amphibians of the Philippines, part I: checklist of the species. Proceedings of the California Academy of Sciences, 62:457--539.
   \item Davis, DR, Sanguila, MB, Brown, JC, Brown, RM, Cobb, KA, Begmann, P, Morinaga, G, \textbf{Huron, NA}, Watters, JL, Siler, CD. 2015. Natural History Notes: \textit{Pseudogekko ditoy} (Leyte Diminutive False Gecko) Morphology. Herpetological Review, 46:634.
   \item Heitz, BB, Ellsworth, ED, \textbf{Huron, NA}, Geheber, AD, Siler, CD. 2015. Geographic Distribution: \textit{Sonora semiannulata} (Variable Groundsnake). Herpetological Review, 46:577.
