@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  28 SEP 2017 15:34
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  13 JAN 2020 10:48
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Master.tex
@@ -7,12 +7,11 @@ LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using write cache: /Users/nicholashuron/Library/texlive/2017/texmf-var
-/luatex-cache/generic)(using read cache: /usr/local/texlive/2017/texmf-var/luate
-x-cache/generic /Users/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache
-/generic)
-luaotfload | conf : Root cache directory is /Users/nicholashuron/Library/texlive
-/2017/texmf-var/luatex-cache/generic/names.
+llection.(using write cache: /usr/local/texlive/2017/texmf-var/luatex-cache/gene
+ric)(using read cache: /usr/local/texlive/2017/texmf-var/luatex-cache/generic /U
+sers/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /usr/local/texlive/2017/texmf-var/lu
+atex-cache/generic/names.
 luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
 -resolved path “/usr/local/texlive/2017/texmf-dist/tex/luatex/luaotfload/fontl
 oader-2017-02-11.lua”.
@@ -24,8 +23,8 @@ Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /Users/nicholashuron/Library/texlive
-/2017/texmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /usr/local/texlive/2017/texmf-var/lu
+atex-cache/generic/names.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -36,16 +35,16 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.111 seconds
+luaotfload | main : initialization completed in 0.146 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /Users/nicholashuron/Library/t
-exlive/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: 
-/Users/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/o
-tl/lmroman10-regular.luc))
+luaotfload | db : Font names database loaded from /usr/local/texlive/2017/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /Users/nicholashur
+on/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regul
+ar.luc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -710,16 +709,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-luaotfload | cache : Lookup cache loaded from /Users/nicholashuron/Library/texli
-ve/2017/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load l
-uc: /Users/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache/generic/fon
-ts/otl/arial.luc)
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2017/texmf-var/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /usr/local/tex
+live/2017/texmf-var/luatex-cache/generic/fonts/otl/arial.luc)
 \g__fontspec_family_Arial_int=\count188
-(load luc: /Users/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache/gene
-ric/fonts/otl/arial-bold-italic.luc)(load luc: /Users/nicholashuron/Library/texl
-ive/2017/texmf-var/luatex-cache/generic/fonts/otl/arial-bold.luc)(load luc: /Use
-rs/nicholashuron/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/a
-rial-italic.luc)
+(load luc: /usr/local/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/aria
+l-bold-italic.luc)(load luc: /usr/local/texlive/2017/texmf-var/luatex-cache/gene
+ric/fonts/otl/arial-bold.luc)(load luc: /usr/local/texlive/2017/texmf-var/luatex
+-cache/generic/fonts/otl/arial-italic.luc)
 luaotfload | aux : font no 18 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : no font with id 18
@@ -846,85 +843,85 @@ LaTeX Info: Redefining \nameref on input line 89.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 89.
-LaTeX Info: Redefining \rmfamily on input line 101.
+LaTeX Info: Redefining \rmfamily on input line 102.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 122.
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 123.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--180
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
 
  []
 
@@ -934,23 +931,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--199
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
 
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
-(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 20
-1.
+(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 19
+3.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -960,22 +947,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
 
  []
 
@@ -985,144 +982,160 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--230
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 233.
 
-Overfull \hbox (16.90814pt too wide) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 244.
+
+Overfull \hbox (19.35158pt too wide) in paragraph at lines 246--247
 |[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 249.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--295
+Underfull \hbox (badness 10000) in paragraph at lines 314--320
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 297.
+LaTeX Info: Redefining \rmfamily on input line 322.
 
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 299--308
+Overfull \hbox (10.11993pt too wide) in paragraph at lines 324--333
 |[][][] 
  []
 
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 309--318
-|[][][] 
- []
-
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 319--328
-|[][][] 
- []
-
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 329--338
-|[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--338
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 340.
 [2]
-Overfull \hbox (8.26015pt too wide) in paragraph at lines 352--353
+Overfull \hbox (10.11993pt too wide) in paragraph at lines 334--343
+|[][][] 
+ []
+
+
+Overfull \hbox (10.11993pt too wide) in paragraph at lines 344--353
+|[][][] 
+ []
+
+
+Overfull \hbox (10.11993pt too wide) in paragraph at lines 354--363
+|[][][] 
+ []
+
+
+Overfull \hbox (10.11993pt too wide) in paragraph at lines 364--373
+|[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--373
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 376.
+
+Overfull \hbox (8.26015pt too wide) in paragraph at lines 388--389
 []\TU/Arial(0)/m/n/10.95 San-guila, MB, Re-alu-bit, NDC, Dies-mos, ML, Lorenzo 
 II, A, De Lay-ola, A, Brown, JC, Cobb, KA, Bergmann,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 358.
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--394
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 396.
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--446
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 449.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+LaTeX Info: Redefining \rmfamily on input line 395.
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--445
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 447.
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--497
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 500.
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 471.
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--493
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 495.
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--505
+LaTeX Info: Redefining \rmfamily on input line 522.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
 
  []
 
+LaTeX Info: Redefining \rmfamily on input line 553.
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--516
+Underfull \hbox (badness 10000) in paragraph at lines 559--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--525
+Underfull \hbox (badness 10000) in paragraph at lines 569--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--583
 
  []
 
 
 AED: lastpage setting LastPage
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 587.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
  (./NAH_CV_Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 587.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 587.
 Package rerunfilecheck Info: File `NAH_CV_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 911CD01C8099A6304ECDAF1849E4C069;614.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+(rerunfilecheck)             Checksum: 855182B3C8E331F7B969A129142EDBCB;585.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 587.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17210 strings out of 494481
+ 17211 strings out of 494481
  125200,552014 words of node,token memory allocated
- 418 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 5 attribute, 54 glue_spec, 5 attribute_list
+ 413 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 5 attribute, 53 glue_spec, 5 attribute_list
 , 2 write nodes
-   avail lists: 1:2,2:458,3:178,4:36,5:110,6:2963,7:717,8:35,9:222,10:25,11:320
+   avail lists: 1:1,2:412,3:179,4:39,5:112,6:2910,7:684,8:47,9:211,10:25,11:349
  20873 multiletter control sequences out of 65536+600000
- 32 fonts using 8676975 bytes
- 35i,12n,68p,1014b,533s stack positions out of 5000i,500n,10000p,200000b,100000s
-</Library/Fonts/Microsoft/Arial Italic.ttf></Library/Fonts/Microsoft/Arial.ttf><
-/Library/Fonts/Microsoft/Arial Bold.ttf>
-Output written on NAH_CV_Master.pdf (4 pages, 84762 bytes).
+ 32 fonts using 8592975 bytes
+ 35i,12n,68p,1014b,385s stack positions out of 5000i,500n,10000p,200000b,100000s
+</Library/Fonts/Arial Italic.ttf></Library/Fonts/Arial.ttf></Library/Fonts/Arial
+ Bold.ttf>
+Output written on NAH_CV_Master.pdf (5 pages, 85898 bytes).
 
-PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 131072)
+PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 131072)
  89 words of extra memory for PDF output out of 10000 (max. 100000000)
 
