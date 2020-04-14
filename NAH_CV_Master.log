@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  13 JAN 2020 10:48
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  11 MAR 2020 12:39
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Master.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.146 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1014,128 +1014,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--320
  []
 
 LaTeX Info: Redefining \rmfamily on input line 322.
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 324--333
-|[][][] 
- []
-
 [2]
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 334--343
-|[][][] 
- []
-
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 344--353
-|[][][] 
- []
-
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 354--363
-|[][][] 
- []
-
-
-Overfull \hbox (10.11993pt too wide) in paragraph at lines 364--373
-|[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--373
+Underfull \hbox (badness 10000) in paragraph at lines 374--383
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 376.
+LaTeX Info: Redefining \rmfamily on input line 386.
 
-Overfull \hbox (8.26015pt too wide) in paragraph at lines 388--389
+Overfull \hbox (8.26015pt too wide) in paragraph at lines 398--399
 []\TU/Arial(0)/m/n/10.95 San-guila, MB, Re-alu-bit, NDC, Dies-mos, ML, Lorenzo 
 II, A, De Lay-ola, A, Brown, JC, Cobb, KA, Bergmann,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 [3]
-LaTeX Info: Redefining \rmfamily on input line 395.
+LaTeX Info: Redefining \rmfamily on input line 405.
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--445
-
- []
-
-LaTeX Info: Redefining \rmfamily on input line 447.
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--497
+Underfull \hbox (badness 10000) in paragraph at lines 449--455
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 500.
+LaTeX Info: Redefining \rmfamily on input line 457.
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 501--507
 
  []
 
+LaTeX Info: Redefining \rmfamily on input line 510.
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 522.
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 545--551
+LaTeX Info: Redefining \rmfamily on input line 533.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--562
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 553.
+LaTeX Info: Redefining \rmfamily on input line 564.
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--563
+Underfull \hbox (badness 10000) in paragraph at lines 583--589
+
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 591.
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--574
+Underfull \hbox (badness 10000) in paragraph at lines 607--612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 10000) in paragraph at lines 618--621
 
  []
 
 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 587.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 625.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 625.
  (./NAH_CV_Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 587.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 587.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 625.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 625.
 Package rerunfilecheck Info: File `NAH_CV_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 855182B3C8E331F7B969A129142EDBCB;585.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 587.
+(rerunfilecheck)             Checksum: 83652AFA0A29A22A2F37D14AB3FD9EC8;633.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 625.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17211 strings out of 494481
+ 17221 strings out of 494481
  125200,552014 words of node,token memory allocated
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 5 attribute, 53 glue_spec, 5 attribute_list
 , 2 write nodes
-   avail lists: 1:1,2:412,3:179,4:39,5:112,6:2910,7:684,8:47,9:211,10:25,11:349
- 20873 multiletter control sequences out of 65536+600000
- 32 fonts using 8592975 bytes
+   avail lists: 1:1,2:414,3:180,4:39,5:123,6:3106,7:698,8:43,9:212,10:25,11:348
+ 20875 multiletter control sequences out of 65536+600000
+ 33 fonts using 8997623 bytes
  35i,12n,68p,1014b,385s stack positions out of 5000i,500n,10000p,200000b,100000s
-</Library/Fonts/Arial Italic.ttf></Library/Fonts/Arial.ttf></Library/Fonts/Arial
- Bold.ttf>
-Output written on NAH_CV_Master.pdf (5 pages, 85898 bytes).
+</Library/Fonts/Arial Bold Italic.ttf></Library/Fonts/Arial Italic.ttf></Library
+/Fonts/Arial.ttf></Library/Fonts/Arial Bold.ttf>
+Output written on NAH_CV_Master.pdf (5 pages, 101199 bytes).
 
-PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 131072)
- 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
