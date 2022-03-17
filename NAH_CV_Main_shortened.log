@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  16 MAR 2022 16:56
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  17 MAR 2022 16:32
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main_shortened.tex
@@ -697,11 +697,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--268
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -710,6 +705,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
+Overfull \hbox (11.7686pt too wide) in paragraph at lines 285--286
+\TU/Arial(0)/m/n/10.95 Gekkonidae) and de-scrip-tion of a new species. Zootaxa, 4020:357--374. [][]doi:10.11646/zootaxa.4020.2.7[][]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
@@ -755,17 +760,17 @@ Here is how much of LuaTeX's memory you used:
  438 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:591,3:288,4:56,5:169,6:107,7:8161,8:13,9:426,10:25,11:587
+   avail lists: 2:609,3:288,4:72,5:172,6:111,7:7856,8:22,9:419,10:25,11:561
  33203 multiletter control sequences out of 65536+600000
  46 fonts using 13827983 bytes
- 83i,11n,85p,1022b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,11n,85p,1022b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main_shortened.pdf (3 pages, 96713 bytes).
+Output written on NAH_CV_Main_shortened.pdf (3 pages, 97704 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 131072)
  73 words of extra memory for PDF output out of 10000 (max. 100000000)
 
