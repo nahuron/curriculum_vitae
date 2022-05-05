@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  17 MAR 2022 16:36
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  5 MAY 2022 15:34
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main.tex
@@ -911,7 +911,7 @@ Here is how much of LuaTeX's memory you used:
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main.pdf (6 pages, 105357 bytes).
+Output written on NAH_CV_Main.pdf (6 pages, 105348 bytes).
 
 PDF statistics: 131 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
