@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  13 MAY 2022 15:45
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  10 JUN 2022 06:40
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main.tex
@@ -592,109 +592,105 @@ Package lastpage Info: Please have a look at the pageslts package at
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 1173) in paragraph at lines 160--164
+\TU/Arial(0)/m/n/10.95 Among Am-phib-ian Species of Great-est Con-ser-va-tion Ne
+ed---Amphibian Sur-veys of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--151
+Underfull \hbox (badness 10000) in paragraph at lines 180--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--180
+Underfull \hbox (badness 10000) in paragraph at lines 209--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
 
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 2
-01.
+24.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -706,67 +702,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 228--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
+Underfull \hbox (badness 10000) in paragraph at lines 238--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--228
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--239
+Underfull \hbox (badness 10000) in paragraph at lines 326--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--249
-
- []
-
-
-Overfull \hbox (19.35158pt too wide) in paragraph at lines 254--255
-|[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--328
+Underfull \hbox (badness 10000) in paragraph at lines 386--395
 
  []
 
@@ -779,14 +755,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 382--391
-
+Overfull \hbox (8.26015pt too wide) in paragraph at lines 414--415
+[]\TU/Arial(0)/m/n/10.95 San-guila, MB, Re-alu-bit, NDC, Dies-mos, ML, Lorenzo 
+II, A, De Lay-ola, A, Brown, JC, Cobb, KA, Bergmann,
  []
 
 
-Overfull \hbox (8.26015pt too wide) in paragraph at lines 410--411
-[]\TU/Arial(0)/m/n/10.95 San-guila, MB, Re-alu-bit, NDC, Dies-mos, ML, Lorenzo 
-II, A, De Lay-ola, A, Brown, JC, Cobb, KA, Bergmann,
+Overfull \hbox (11.7686pt too wide) in paragraph at lines 417--418
+\TU/Arial(0)/m/n/10.95 Gekkonidae) and de-scrip-tion of a new species. Zootaxa, 4020:357--374. [][]doi:10.11646/zootaxa.4020.2.7[][]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+
  []
 
 
@@ -798,27 +779,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Overfull \hbox (11.7686pt too wide) in paragraph at lines 413--414
-\TU/Arial(0)/m/n/10.95 Gekkonidae) and de-scrip-tion of a new species. Zootaxa, 4020:357--374. [][]doi:10.11646/zootaxa.4020.2.7[][]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 473--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--475
+Underfull \hbox (badness 10000) in paragraph at lines 525--531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--527
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
@@ -831,59 +812,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 590--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 625--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--592
+Underfull \hbox (badness 10000) in paragraph at lines 639--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--627
+Underfull \hbox (badness 10000) in paragraph at lines 649--653
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--639
+Underfull \hbox (badness 10000) in paragraph at lines 659--664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--649
+Underfull \hbox (badness 10000) in paragraph at lines 670--673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--669
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5] 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -893,28 +856,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6] (./NAH_CV_Main.aux)
+[5] (./NAH_CV_Main.aux)
 Package rerunfilecheck Info: File `NAH_CV_Main.out' has not changed.
 (rerunfilecheck)             Checksum: F97B3610314B75A98F51C923DE5843BA;1539.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13794 strings out of 478531
+ 13793 strings out of 478531
  100000,794899 words of node,token memory allocated
  438 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:596,3:342,4:86,5:192,6:140,7:8111,8:21,9:457,10:25,11:659
+   avail lists: 2:621,3:379,4:98,5:186,6:158,7:8264,8:20,9:552,10:25,11:657
  33206 multiletter control sequences out of 65536+600000
  46 fonts using 13829903 bytes
- 83i,12n,85p,1012b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,12n,85p,1012b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main.pdf (6 pages, 105348 bytes).
+Output written on NAH_CV_Main.pdf (5 pages, 104387 bytes).
 
-PDF statistics: 131 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 131072)
+PDF statistics: 124 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
