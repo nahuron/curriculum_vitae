@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  9 JUN 2022 06:58
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  5 JUL 2022 08:59
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main_shortened.tex
@@ -592,95 +592,95 @@ Package lastpage Info: Please have a look at the pageslts package at
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 141--144
+Underfull \hbox (badness 1173) in paragraph at lines 142--145
 \TU/Arial(0)/m/n/10.95 Among Am-phib-ian Species of Great-est Con-ser-va-tion Ne
 ed---Amphibian Sur-veys of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--164
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--175
+Underfull \hbox (badness 10000) in paragraph at lines 171--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--186
+Underfull \hbox (badness 10000) in paragraph at lines 182--187
 
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 1
-89.
+90.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -692,7 +692,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 259--268
+Underfull \hbox (badness 10000) in paragraph at lines 260--269
 
  []
 
@@ -705,37 +705,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Overfull \hbox (11.7686pt too wide) in paragraph at lines 285--286
+Overfull \hbox (11.7686pt too wide) in paragraph at lines 286--287
 \TU/Arial(0)/m/n/10.95 Gekkonidae) and de-scrip-tion of a new species. Zootaxa, 4020:357--374. [][]doi:10.11646/zootaxa.4020.2.7[][]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
@@ -757,20 +757,20 @@ Package rerunfilecheck Info: File `NAH_CV_Main_shortened.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  13785 strings out of 478531
  100000,794899 words of node,token memory allocated
- 438 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
- 5 attribute_list, 2 write nodes
-   avail lists: 2:609,3:290,4:72,5:172,6:111,7:7856,8:22,9:419,10:25,11:561
+ 448 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 53 glue_spec,
+ 6 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 2:602,3:286,4:70,5:167,6:109,7:7757,8:23,9:416,10:25,11:570
  33203 multiletter control sequences out of 65536+600000
  46 fonts using 13827983 bytes
- 83i,11n,85p,1022b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,11n,85p,1022b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main_shortened.pdf (3 pages, 97729 bytes).
+Output written on NAH_CV_Main_shortened.pdf (3 pages, 98149 bytes).
 
-PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 131072)
  73 words of extra memory for PDF output out of 10000 (max. 100000000)
 
