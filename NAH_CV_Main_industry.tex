@@ -21,6 +21,9 @@
 %ensure that emphasis command plays nicely with underline package (ulem)
 %\normalem
 
+%\usepackage{soul}
+%\setul{1pt}{.5pt}
+
 %set default text as sans serif arial
 {\color[rgb]{0.000000,0.000000,0.000000}\usepackage{fontspec}}
 \setmainfont{Arial}
@@ -66,6 +69,8 @@
 
 \renewcommand{\headrulewidth}{0pt}
 
+%Footer with page num centered
+%\cfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % depending on where you want the page numbers
 
 %Footer with page num centered
 \setlength\footskip{.2in}
@@ -83,13 +88,19 @@
 %HEADING
 \centerline{\Huge{\textbf{Nicholas A. Huron}}}
 \vspace{1ex}
-\centerline{\normalfont\Large{{Ecologist\hspace{2pt}\textbullet\hspace{2pt}Data Scientist}}}
-\centerline{\normalfont{Department of Biology, Temple University}}
+\centerline{\normalfont\Large{{Data Scientist}}}
+%\centerline{\normalfont{Department of Biology, Temple University}}
+%\centerline{\normalfont{1 Parker Avenue \#1210\hspace{2pt}\textbullet\hspace{2pt}Philadelphia, PA 19128 USA}}
 \centerline{\normalfont{(484) 554-1530\hspace{4pt}\textbullet\hspace{4pt}\href{mailto:nahuron@gmail.com}{\color{blue}nahuron@gmail.com}}\hspace{4pt}\textbullet\hspace{4pt}\href{https://github.com/nahuron}{\color{blue}github.com/nahuron}}
 %\textbullet\hspace{2pt}\href{http://nicholashuron.com}{\color{blue}nicholashuron.com}}
+
 \vspace{1ex}
 \hrule
 \vspace{1ex}
+
+%STATEMENT OF PURPOSE
+\vspace{1ex}
+Throughout my life, I have been told that I have a 'fixer's mindset', and it is this attraction to improving and building that shapes my career choices. My goal is to work with world-class organizations to address global problems by harnessing the power of data and clearly conveying solutions that will allow humanity to better steward the Earth.\\
 
 %EDUCATION
 \csection{Education}%
@@ -111,6 +122,21 @@ B.S. in Biology\\
 Pepperdine University\\
 Magna Cum Laude\\
 \end{minipage}}
+
+%Skills
+\vspace{1ex}
+\csection{Skills}%
+
+\sub{\textbullet\hspace{1pt} R statistics program (data visualization; function, script, and package dev.; R Markdown report writing)}
+\sub{\textbullet\hspace{1pt} Geographic Information Systems software (ArcGIS and qGIS)}
+\sub{\textbullet\hspace{1pt} Ecological Niche Modeling (e.g., Maxent, ensemble methods)}
+\sub{\textbullet\hspace{1pt} Git and Github version control and integration}
+\sub{\textbullet\hspace{1pt} Bash command line}
+\sub{\textbullet\hspace{1pt} Python}
+\sub{\textbullet\hspace{1pt} Adobe creative suite (Intermediate: acrobat, illustrator, indesign, and photoshop)}
+\sub{\textbullet\hspace{1pt} Microsoft Office and Google Docs Editors}\\
+
+%\pagebreak
 
 %Academic Positions
 \csection{Academic Positions}%
@@ -244,209 +270,10 @@ Magna Cum Laude\\
 \textbullet\hspace{1pt} Provide in person logistics and technical support for department-sponsored events\\
 \end{minipage}}
 
-%Publications
-%\pagebreak			%had to manually do, since i am too lazy to create a formatting command
-\csection{Publications}%
-\main{
-\vspace{-0.25in}
-
-\begin{etaremune}[leftmargin=3.30ex, listparindent=0pt,itemindent=-1ex]
-
- \item \textbf{Huron, NA}, Helmus, MR. \textit{in prep}. Predicting host associations of the invasive spotted lanternfly on trees across the USA.
- \item \textbf{Huron, NA}, Hedges, SB, Helmus, MR. \textit{in prep}. Testing general models of non-random extinction indicates historic directional extinction is followed by contemporary stabilizing extinction within a genus of island lizards.  
- \item \textbf{Huron, NA}, Behm, JE, Helmus, MR. \textit{2022}. Paninvasion severity assessment of a U.S. grape pest to disrupt the global wine market. Communications Biology, 5:1--11. \href{https://doi.org/10.1038/s42003-022-03580-w}{\color{blue}doi:10.1038/s42003-022-03580-w}.
- \item Warren, DL, Matzke, NJ, Cardillo, M, Baumgartner, J, Beaumont, LJ, Turelli, M, Glor, R, \textbf{Huron, NA}, Sim\~oes, M, Iglesias, TL, Piquet, JC, Dinnage, R. 2021. ENMTools 1.0: an R package for comparative ecological biogeography. Ecography, 44:504--11. \href{https://dx.doi.org/10.1111/ecog.05485}{\color{blue}doi:10.1111/ecog.05485}.
- \item Marhanka, EC, Watters, JL, \textbf{Huron, NA}, McMillin, SL, Winfrey, CC, Curtis, DJ, Davis, DR, Farkas, JK, Kerby, JL, Siler, CD. 2017. Detection of high prevalence of \textit{Batrachochytrium dendrobatidis} in amphibians from southern Oklahoma, USA. Herpetological Review, 48:70--74. \href{https://scholar.google.com/scholar_lookup?title=Detection+of+high+prevalence+of+Batrachochytrium+dendrobatidis+in+amphibians+from+southern+Oklahoma,+USA.&author=EC+Marhanka&author=JL+Watters&author=NA+Huron&author=SL+McMillin&author=CC+Winfrey&author=DJ+Curtis&author=DR+Davis&author=JK+Farkas&author=JL+Kerby&author=CD.+Siler&volume=48&issue=1&publication_year=2017&pages=70-74}{\color{blue}Google Scholar}. 
- \item Siler, CD, Davis, DR, Freitas, ES, \textbf{Huron, NA}, Geheber, AD, Watters, JL, Penrod, ML, Pape{{\c{s}}}, M, Amrein, A, Anwar, A, Cooper, D, Hein, T, Manning, A, Patel, N, Pinaroc, L, Diesmos, AC, Diesmos, ML, Oliveros, CH, Brown, RM. 2016. Description of a new species of Slender Skink of the \textit{Brachymeles bonitae} Complex (Reptilia: Squamata: Scincidae) from the northern Philippines. Zootaxa, 4132:15--29. \href{https://doi.org/10.11646/zootaxa.4132.1.2}{\color{blue}doi:10.11646/zootaxa.4132.1.2}.
- \item \textbf{Huron, NA}, Realubit, NDC, Cobb, KA, Brown, JC, Bergmann, P, Morinaga, G, Diesmos, AC, Diesmos, ML, Brown, RM, Siler, CD. 2016. Discovery of new island populations of the recently described False Geckos (\textit{Pseudogekko pungkaypinit} and \textit{Pseudogekko ditoy}): Conservation implications for the eastern Philippines. Herpetological Review, 47:1--4. \href{https://github.com/nahuron/publication_pdfs/blob/main/2016.Huron.etal.Pseudogekko.Samar.pdf}{\color{blue}PDF}.
- \item Diesmos, AC, Waters, JL, \textbf{Huron, NA}, Davis, DR, Alcala, AC, Crombie, RI, Afuang, LE, Gee-Das, G, Sison, RV, Sanguila, MB, Penrod, ML, Labonte, MJ, Davey, CS, Leone, EA, Diesmos, ML, Sy, EY, Welton, LJ, Brown, RM, Siler, CS. 2015. Amphibians of the Philippines, part I: checklist of the species. Proceedings of the California Academy of Sciences, 62:457--539. \href{https://scholar.google.com/scholar_lookup?title=Amphibians+of+the+Philippines%2C+part+I%3A+checklist+of+the+species&author=AC+Diesmos&author=JL+Watters&author=NA+Huron&author=DR+Davis&author=AC+Alcala&author=RI+Crombie&author=LE+Afuang&author=G+Gee-Das&author=RV+Sison&author=MB+Sanguila&author=ML+Penrod&publication_year=2015}{\color{blue}Google Scholar}.
- \item Davis, DR, Sanguila, MB, Brown, JC, Brown, RM, Cobb, KA, Begmann, P, Morinaga, G, \textbf{Huron, NA}, Watters, JL, Siler, CD. 2015. Natural History Notes: \textit{Pseudogekko ditoy} (Leyte Diminutive False Gecko) Morphology. Herpetological Review, 46:634.
- \item Heitz, BB, Ellsworth, ED, \textbf{Huron, NA}, Geheber, AD, Siler, CD. 2015. Geographic Distribution: \textit{Sonora semiannulata} (Variable Groundsnake). Herpetological Review, 46:577.
- \item Sanguila, MB, Realubit, NDC, Diesmos, ML, Lorenzo II, A, De Layola, A, Brown, JC, Cobb, KA, Bergmann, P, Morinaga, G, Freitas, ES, \textbf{Huron, NA}, Watters, JL. 2015. Geographic Distribution: \textit{Pelophryne lighti} (Mindanao Flathead Toad). Herpetological Review, 46:380.
- \item Realubit, NDC, Diesmos, ML, Lorenzo II, A, De Layola, A, Diesmos, AC, Brown, JC, Brown, RM, Cobb, KA, Bergmann, P, Morinaga, G, Siler, CD, \textbf{Huron, NA}, Siler, JM. 2015. Geographic Distribution: \textit{Draco Mindanensis} (Mindanao Flying Lizard). Herpetological Review, 46:216. 
-%\pagebreak
- \item Davis, DR, Watters, JL, K{\"o}hler, G, Whitsett, C, \textbf{Huron, NA}, Brown, RM, Diesmos, AC, Siler, CD. 2015. Redescription of the rare Philippine slender gecko \textit{Pseudogekko brevipes} (Reptilia: Squamata: Gekkonidae) and description of a new species. Zootaxa, 4020:357--374. \href{https://doi.org/10.11646/zootaxa.4020.2.7}{\color{blue}doi:10.11646/zootaxa.4020.2.7}.\\
-\end{etaremune}}%
-
-%Research Grants
-\csection{Research Grants}%
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2019
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$76,890.00)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{United States Department of Agriculture}: Predicting establishment and impact of spotted lanternfly on trees across the USA (Co-written with/submitted by M. Helmus)
-\end{minipage}}
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2018
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$300.00)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{American Society of Icthyologists and Herpetologists}: Storer Award (Conservation)
-\end{minipage}}
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2017
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$150.00)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{University of Oklahoma Graduate Student Senate}: Research Grant
-\end{minipage}}
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2015
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$562.50)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{University of Oklahoma Graduate Student Senate}: Research Grant
-\end{minipage}}
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2015
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$200.00)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{Society for the Study of Amphibians and Reptiles}: Henri C. Seibert Award (Ecology)
-\end{minipage}}
-
-\main{\begin{minipage}[t]{0.06\textwidth}
-2015
-\end{minipage}%
-\begin{minipage}[t]{0.13\linewidth}
-(\$475.00)
-\end{minipage}%
-\begin{minipage}[t]{0.80\textwidth}
-\textit{University of Oklahoma Department of Biology}: L. G. Hill Zoology Excellence Fund
-\end{minipage}}\\
-
-%\pagebreak
-%Presentations
-\csection{Presentations}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2020
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Ecological Society of America Annual Meeting, Virtual Meeting (U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2018
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Joint Meetings of Ichthyologists and Herpetologists, University of Rochester (Rochester, NY U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2018
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Mid-Atlantic Ecological Society of America Conference, Rutgers University - Newark Campus (Newark, NJ U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2015
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Society for the Study of Amphibians and Reptiles Meeting, University of Kansas (Lawrence, KS U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2013
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Southern California Conference of Undergraduate Research (SCCUR), Whittier College (Whittier, CA U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2012
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-SCCUR, California State University Channel Islands (Camarillo, CA U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2011
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-SCCUR, Mt. San Antonio College (Walnut, CA U.S.A.)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2010
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-SCCUR, Pepperdine University (Malibu, CA U.S.A.)
-\end{minipage}}\\
-
 %Research Interests
 \csection{Research Interests}%
 
 \main{\smash{Data Science, Invasion Biology, Biodiversity and Systematics, Conservation Biology, and Herpetology}}\\
-
-%Honors, Awards, and Fellowships
-\csection{Honors, Awards, and Fellowships}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2017--2022
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Temple University Fellowship
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2013
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Selection for Who's Who in American Universities and Colleges
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2012--2013
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Blanche E. Seaver Faculty Scholarship
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2011--2013
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Pepperdine University Natural Science Award
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2011--2012
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Pepperdine University Seaver College Faculty/Staff Scholarship
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2010
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Seaver College Dean's List (2 Semesters)
-\end{minipage}}%
-
-\main{\begin{minipage}[t]{0.12\textwidth}
-2010
-\end{minipage}%
-\begin{minipage}[t]{0.85\textwidth}
-Phi Eta Sigma Honor Society Induction
-\end{minipage}}\\
 
 %Teaching Experience
 \csection{Teaching Experience}%
@@ -521,38 +348,204 @@ Phi Eta Sigma Honor Society Induction
 \textit{General Chemistry}, Pepperdine University (Tutor, 2 semesters)
 \end{minipage}}\\
 
-%Skills
-\vspace{2ex}
-\csection{Skills}%
+%Research Grants
+\csection{Research Grants}%
 
-\main{\large\textit{Computer}}
-\sub{\textbullet\hspace{1pt} R statistics program (data visualization; function, script, and package dev.; R Markdown report writing)}
-\sub{\textbullet\hspace{1pt} Geographic Information Systems software (ArcGIS and qGIS)}
-\sub{\textbullet\hspace{1pt} Ecological Niche Modeling (e.g., Maxent, ensemble methods)}
-\sub{\textbullet\hspace{1pt} Git and Github version control and integration (Intermediate): }
-\sub{\textbullet\hspace{1pt} Bash command line (Intermediate)}
-\sub{\textbullet\hspace{1pt} Python (Novice)}
-\sub{\textbullet\hspace{1pt} Zotero citation management}
-\sub{\textbullet\hspace{1pt} Adobe creative suite (Intermediate: acrobat, illustrator, indesign, and photoshop)}
-\sub{\textbullet\hspace{1pt} Microsoft Office and Google Docs Editors}
-\sub{\textbullet\hspace{1pt} Presentation and A/V set-up}
-\sub{\textbullet\hspace{1pt} Document copier and scanning}\\
+\main{\begin{minipage}[t]{0.06\textwidth}
+2019
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$76,890.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{United States Department of Agriculture}: Predicting establishment and impact of spotted lanternfly on trees across the USA (Co-written with/submitted by M. Helmus)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$300.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{American Society of Icthyologists and Herpetologists}: Storer Award (Conservation)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2017
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$150.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{University of Oklahoma Graduate Student Senate}: Research Grant
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$562.50)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{University of Oklahoma Graduate Student Senate}: Research Grant
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$200.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{Society for the Study of Amphibians and Reptiles}: Henri C. Seibert Award (Ecology)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$475.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{University of Oklahoma Department of Biology}: L. G. Hill Zoology Excellence Fund
+\end{minipage}}\\
+
+%Publications
+%\pagebreak			%had to manually do, since i am too lazy to create a formatting command
+\csection{Publications}%
+\main{
+\vspace{-0.25in}
+
+\begin{etaremune}[leftmargin=3.30ex, listparindent=0pt,itemindent=-1ex]
+
+ \item \textbf{Huron, NA}, Helmus, MR. \textit{in prep}. Predicting host associations of the invasive spotted lanternfly on trees across the USA.
+ \item \textbf{Huron, NA}, Hedges, SB, Helmus, MR. \textit{in prep}. Testing general models of non-random extinction indicates historic directional extinction is followed by contemporary stabilizing extinction within a genus of island lizards.  
+ \item \textbf{Huron, NA}, Behm, JE, Helmus, MR. \textit{2022}. Paninvasion severity assessment of a U.S. grape pest to disrupt the global wine market. Communications Biology, 5:1--11. \href{https://doi.org/10.1038/s42003-022-03580-w}{\color{blue}doi:10.1038/s42003-022-03580-w}.
+ \item Warren, DL, Matzke, NJ, Cardillo, M, Baumgartner, J, Beaumont, LJ, Turelli, M, Glor, R, \textbf{Huron, NA}, Sim\~oes, M, Iglesias, TL, Piquet, JC, Dinnage, R. 2021. ENMTools 1.0: an R package for comparative ecological biogeography. Ecography, 44:504--11. \href{https://dx.doi.org/10.1111/ecog.05485}{\color{blue}doi:10.1111/ecog.05485}.
+ \item Marhanka, EC, Watters, JL, \textbf{Huron, NA}, McMillin, SL, Winfrey, CC, Curtis, DJ, Davis, DR, Farkas, JK, Kerby, JL, Siler, CD. 2017. Detection of high prevalence of \textit{Batrachochytrium dendrobatidis} in amphibians from southern Oklahoma, USA. Herpetological Review, 48:70--74. \href{https://scholar.google.com/scholar_lookup?title=Detection+of+high+prevalence+of+Batrachochytrium+dendrobatidis+in+amphibians+from+southern+Oklahoma,+USA.&author=EC+Marhanka&author=JL+Watters&author=NA+Huron&author=SL+McMillin&author=CC+Winfrey&author=DJ+Curtis&author=DR+Davis&author=JK+Farkas&author=JL+Kerby&author=CD.+Siler&volume=48&issue=1&publication_year=2017&pages=70-74}{\color{blue}Google Scholar}. 
+ \item Siler, CD, Davis, DR, Freitas, ES, \textbf{Huron, NA}, Geheber, AD, Watters, JL, Penrod, ML, Pape{{\c{s}}}, M, Amrein, A, Anwar, A, Cooper, D, Hein, T, Manning, A, Patel, N, Pinaroc, L, Diesmos, AC, Diesmos, ML, Oliveros, CH, Brown, RM. 2016. Description of a new species of Slender Skink of the \textit{Brachymeles bonitae} Complex (Reptilia: Squamata: Scincidae) from the northern Philippines. Zootaxa, 4132:15--29. \href{https://doi.org/10.11646/zootaxa.4132.1.2}{\color{blue}doi:10.11646/zootaxa.4132.1.2}.
+ \item \textbf{Huron, NA}, Realubit, NDC, Cobb, KA, Brown, JC, Bergmann, P, Morinaga, G, Diesmos, AC, Diesmos, ML, Brown, RM, Siler, CD. 2016. Discovery of new island populations of the recently described False Geckos (\textit{Pseudogekko pungkaypinit} and \textit{Pseudogekko ditoy}): Conservation implications for the eastern Philippines. Herpetological Review, 47:1--4. \href{https://github.com/nahuron/publication_pdfs/blob/main/2016.Huron.etal.Pseudogekko.Samar.pdf}{\color{blue}PDF}.
+ \item Diesmos, AC, Waters, JL, \textbf{Huron, NA}, Davis, DR, Alcala, AC, Crombie, RI, Afuang, LE, Gee-Das, G, Sison, RV, Sanguila, MB, Penrod, ML, Labonte, MJ, Davey, CS, Leone, EA, Diesmos, ML, Sy, EY, Welton, LJ, Brown, RM, Siler, CS. 2015. Amphibians of the Philippines, part I: checklist of the species. Proceedings of the California Academy of Sciences, 62:457--539. \href{https://scholar.google.com/scholar_lookup?title=Amphibians+of+the+Philippines%2C+part+I%3A+checklist+of+the+species&author=AC+Diesmos&author=JL+Watters&author=NA+Huron&author=DR+Davis&author=AC+Alcala&author=RI+Crombie&author=LE+Afuang&author=G+Gee-Das&author=RV+Sison&author=MB+Sanguila&author=ML+Penrod&publication_year=2015}{\color{blue}Google Scholar}.
+ \item Davis, DR, Sanguila, MB, Brown, JC, Brown, RM, Cobb, KA, Begmann, P, Morinaga, G, \textbf{Huron, NA}, Watters, JL, Siler, CD. 2015. Natural History Notes: \textit{Pseudogekko ditoy} (Leyte Diminutive False Gecko) Morphology. Herpetological Review, 46:634.
+ \item Heitz, BB, Ellsworth, ED, \textbf{Huron, NA}, Geheber, AD, Siler, CD. 2015. Geographic Distribution: \textit{Sonora semiannulata} (Variable Groundsnake). Herpetological Review, 46:577.
+ \item Sanguila, MB, Realubit, NDC, Diesmos, ML, Lorenzo II, A, De Layola, A, Brown, JC, Cobb, KA, Bergmann, P, Morinaga, G, Freitas, ES, \textbf{Huron, NA}, Watters, JL. 2015. Geographic Distribution: \textit{Pelophryne lighti} (Mindanao Flathead Toad). Herpetological Review, 46:380.
+ \item Realubit, NDC, Diesmos, ML, Lorenzo II, A, De Layola, A, Diesmos, AC, Brown, JC, Brown, RM, Cobb, KA, Bergmann, P, Morinaga, G, Siler, CD, \textbf{Huron, NA}, Siler, JM. 2015. Geographic Distribution: \textit{Draco Mindanensis} (Mindanao Flying Lizard). Herpetological Review, 46:216. 
+%\pagebreak
+ \item Davis, DR, Watters, JL, K{\"o}hler, G, Whitsett, C, \textbf{Huron, NA}, Brown, RM, Diesmos, AC, Siler, CD. 2015. Redescription of the rare Philippine slender gecko \textit{Pseudogekko brevipes} (Reptilia: Squamata: Gekkonidae) and description of a new species. Zootaxa, 4020:357--374. \href{https://doi.org/10.11646/zootaxa.4020.2.7}{\color{blue}doi:10.11646/zootaxa.4020.2.7}.\\
+\end{etaremune}}%
 
 %\pagebreak
+%Presentations
+\csection{Presentations}%
 
-\main{\large\textit{Professional}}
-\sub{\textbullet\hspace{1pt} Management of undergraduate students}
-\sub{\textbullet\hspace{1pt} Writing and critical peer-review of scientific literature}\\
+\main{\begin{minipage}[t]{0.12\textwidth}
+2020
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Ecological Society of America Annual Meeting, Virtual Meeting (U.S.A.)
+\end{minipage}}%
 
-\main{\large\textit{Lab and Fieldwork}}
-\sub{\textbullet\hspace{1pt} Amphibian/reptile field collection (destructive/non-destructive tissue sampling, \nohyphens{specimen preparation, \textit{Batrachochytrium dendrobatidis}/\textit{ranavirus} swabbing, eDNA collection)}}
-\sub{\textbullet\hspace{1pt} Ecological survey techniques (e.g., Stream Health Biotic Index)}
-\sub{\textbullet\hspace{1pt} Amphibian/reptile care and husbandry}
-\sub{\textbullet\hspace{1pt} Lab safety and general genetic sequencing (tissue extraction, PCR, gel electrophoresis)}\\
+\main{\begin{minipage}[t]{0.12\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Joint Meetings of Ichthyologists and Herpetologists, University of Rochester (Rochester, NY U.S.A.)
+\end{minipage}}%
 
-\main{\large\textit{Language}}
-\sub{\textbullet\hspace{1pt} Proficient in conversational German}
-\sub{\textbullet\hspace{1pt} Limited experience with conversational Tagalog}\\
+\main{\begin{minipage}[t]{0.12\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Mid-Atlantic Ecological Society of America Conference, Rutgers University - Newark Campus (Newark, NJ U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Society for the Study of Amphibians and Reptiles Meeting, University of Kansas (Lawrence, KS U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2013
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Southern California Conference of Undergraduate Research (SCCUR), Whittier College (Whittier, CA U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2012
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+SCCUR, California State University Channel Islands (Camarillo, CA U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2011
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+SCCUR, Mt. San Antonio College (Walnut, CA U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2010
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+SCCUR, Pepperdine University (Malibu, CA U.S.A.)
+\end{minipage}}\\
+
+%Honors, Awards, and Fellowships
+\csection{Honors, Awards, and Fellowships}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2017--2022
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Temple University Fellowship
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2013
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Selection for Who's Who in American Universities and Colleges
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2012--2013
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Blanche E. Seaver Faculty Scholarship
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2011--2013
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Pepperdine University Natural Science Award
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2011--2012
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Pepperdine University Seaver College Faculty/Staff Scholarship
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2010
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Seaver College Dean's List (2 Semesters)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2010
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Phi Eta Sigma Honor Society Induction
+\end{minipage}}\\
 
 %\pagebreak
 %Professional Memberships
@@ -666,32 +659,7 @@ Pepperdine University GreenTeam\\
 
 \vspace{1ex}
 \vspace{1ex}
-
-
-%REFERENCES
-%\centerline{\normalfont\Large{{*References available upon request.*}}}
-\pagebreak
-\csection{References}
-
-\main{\large\textbf{Dr. Matthew R. Helmus}}
-\sub{Assistant Professor}
-\sub{Department of Biology, Temple University}
-%\sub{1925 N. 12th Street, Suite 502, Philadelphia, PA 19122}
-\sub{215-204-5989}
-\sub{\color{blue}mrhelmus@temple.edu}\\
-
-\main{\large\textbf{Dr. S. Blair Hedges}}
-\sub{Laura H. Carnell Professor of Biodiversity}
-\sub{Department of Biology, Temple University}
-%\sub{1925 N. 12th Street, Suite 502, Philadelphia, PA 19122}
-\sub{215-204-7238}
-\sub{\color{blue}sbh@temple.edu}\\
-
-\main{\large\textbf{Dr. Dan L. Warren}}
-\sub{Staff Scientist}
-\sub{Okinawa Institute of Science and Technology}
-\sub{530-848-3809
-\sub{\color{blue}dan.l.warren@gmail.com}
-
+\vspace{1ex}
+\centerline{\normalfont\Large{{*References available upon request.*}}}
 
 \end{document}
