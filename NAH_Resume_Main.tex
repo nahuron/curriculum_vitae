@@ -1,0 +1,327 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.75 in]{geometry}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{changepage}
+\usepackage{xcolor}
+%% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{etaremune}
+\usepackage{hyphenat}
+\usepackage{fancyhdr}
+\usepackage{lastpage} 
+\usepackage{datetime}
+\usepackage{lmodern}
+\usepackage{color}
+
+%set default text as sans serif arial
+{\color[rgb]{0.000000,0.000000,0.000000}\usepackage{fontspec}}
+\setmainfont{Arial}
+
+\setlength{\leftskip}{-0in}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+\setlength{\parsep}{0.25em}
+
+
+%Center Section Command (\csection)
+\makeatletter
+\newcommand\@csection{\@startsection{section}{1}{\z@}
+{-1ex \@plus -.2ex \@minus -.2ex}
+{1ex \@plus -0ex}
+{\setmainfont{Arial}\noindent\Large\bfseries}}
+\newcommand{\csection}[1]{
+\@csection*{#1}
+\addcontentsline{toc}{section}{#1}
+}
+\makeatother
+
+%commands for CV
+\newcommand{\main}{\par\noindent\hspace*{0pt}\ignorespaces} 
+\newcommand{\sub}{\par\noindent\hspace*{10pt}\ignorespaces\hangindent=2ex}
+%\newcommand{\explanation}[1]{%
+%\begin{adjustwidth}{1in}{1in}
+%#1
+%\end{adjustwidth}
+%}
+
+%date formatting
+\newdateformat{daymonthyeardate}{%
+ \THEDAY\ \monthname[\THEMONTH] \THEYEAR}
+
+%Header and Footer config%
+\pagestyle{fancy}
+
+%Header
+%\lhead{\footnotesize Nicholas A.\ Huron -- \emph{Curriculum Vitae}}
+%optional date updated R Header
+%\rhead{\footnotesize Updated \daymonthyeardate\today}
+
+\renewcommand{\headrulewidth}{0pt}
+
+%Footer with page num centered
+%\cfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % depending on where you want the page numbers
+
+%Footer with page num centered
+\setlength\footskip{.2in}
+\rfoot{\color{gray}\footnotesize Page \thepage\ of \pageref{LastPage}} % depending on where you want the page numbers
+\lfoot{\color{gray}\footnotesize Nicholas A.\ Huron -- \emph{Resume}}
+\cfoot{}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%start of document
+\begin{document}
+%HEADING
+\centerline{\Huge{\textbf{Nicholas A. Huron}}}
+\vspace{1ex}
+\centerline{\normalfont\Large{{Ecologist\hspace{2pt}\textbullet\hspace{2pt}Data Scientist}}}
+%\centerline{\normalfont{Department of Biology, Temple University}}
+%\centerline{\normalfont{1 Parker Avenue \#1210\hspace{2pt}\textbullet\hspace{2pt}Philadelphia, PA 19128 USA}}
+\centerline{\normalfont{(484) 554-1530\hspace{4pt}\textbullet\hspace{4pt}\href{mailto:nahuron@gmail.com}{\color{blue}nahuron@gmail.com}}\hspace{4pt}\textbullet\hspace{4pt}\href{https://github.com/nahuron}{\color{blue}github.com/nahuron}}%\textbullet\hspace{2pt}\href{http://nicholashuron.com}{\color{blue}nicholashuron.com}}
+\vspace{1ex}
+\hrule
+\vspace{1ex}
+
+%STATEMENT OF PURPOSE
+\vspace{1ex}
+Throughout my life, I have been told that I have a 'fixer's mindset', and it is this attraction to improving and building that shapes my career choices. My goal is to work with world-class organizations to address global problems by harnessing the power of data and clearly conveying solutions that will allow humanity to better steward the Earth.\
+
+%EDUCATION
+\csection{Education}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2022
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Ph.D. Biology (successfully defended 14 July 2022), Temple University
+\end{minipage}}\
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2013\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+B.S. Biology (Magna Cum Laude), Pepperdine University
+\end{minipage}}\
+
+%Skills
+\csection{Skills}%
+\sub{\textbullet\hspace{1pt} R statistics program (data visualization; function, script, and package dev.; R Markdown report writing)}
+\sub{\textbullet\hspace{1pt} Git and Github version control and integration}
+\sub{\textbullet\hspace{1pt} Geographic Information Systems software (ArcGIS and qGIS)}
+\sub{\textbullet\hspace{1pt} Bash command line, Python}
+\sub{\textbullet\hspace{1pt} Ecological Niche Modeling (e.g., Maxent, ensemble methods)}
+\sub{\textbullet\hspace{1pt} Adobe creative suite (acrobat, illustrator, indesign, and photoshop)}
+%\sub{\textbullet\hspace{1pt} Microsoft Office and Google Docs Editors}
+\sub{\textbullet\hspace{1pt} Ecological survey techniques, lab safety protocols}
+%\sub{\textbullet\hspace{1pt} Amphibian/reptile field collection, specimen vouchering, care, and husbandry}
+\sub{\textbullet\hspace{1pt} Proficient in German}\\
+
+%Experience
+\csection{Experience}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2017--2022\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Graduate Researcher}, Integrative Ecology Lab\\
+\textbullet\hspace{1pt} \textit{Dissertation}: \enquote{Building frameworks for understanding invasions and extinctions for biodiversity science}\\
+\textbullet\hspace{1pt} Research Assistant: \enquote{Predicting establishment and impact of spotted lanternfly on trees across the USA}, United States Department of Agriculture\\
+%MENTORSHIP ITEM
+\textbullet\hspace{1pt} Research Assistant:  \enquote{An integrative approach to model, predict and control the spotted lanternfly invasion meltdown in Pennsylvania}, Pennsylvania Department of Agriculture\\
+\end{minipage}}\
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2014--2020\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Graduate Teaching Assistant}, Temple University (TU) and University of Oklahoma (OU)\\
+\textbullet\hspace{1pt} Introductory Biology Lab (2 TU, 3 OU semesters)\\
+\textbullet\hspace{1pt} Principles of Ecology (1 TU semester)\\
+\textbullet\hspace{1pt} Field Herpetology (1 OU summer)\\
+\end{minipage}}\
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2014--2017\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Research Assistant}, Cameron Siler Lab\\
+\textbullet\hspace{1pt} Conduct international fieldwork to study Philippine herpetofauna\\
+\textbullet\hspace{1pt} Lead fieldwork and data collection on \enquote{Tracking the Emergence of Infectious Disease Among Amphibian Species of Greatest Conservation Need---Amphibian Surveys of Wildlife Management Areas in Oklahoma to Determine Current Distribution, Status, and Health of Native Communities} grant, Oklahoma Department of Wildlife Conservation\\
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2015--2016\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Herpetology/Mammalogy Curatorial Assistant}, Sam Noble OK Museum of Natural History\\
+\textbullet\hspace{1pt} Update taxonomy and reorganize specimen collections\\
+\textbullet\hspace{1pt} Survey, catch, and process vouchered specimens for herpetology collection deposition\\
+\textbullet\hspace{1pt} Digitize and review specimen records in collection databases (morphology, locality, etc.)\\
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2009--2014\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Research Assistant}, Rodney Honeycutt and Lee Kats Labs, Pepperdine University\\
+\textbullet\hspace{1pt} Use molecular techniques to analyze population phylogeography of \textit{Taricha torosa}\\
+\textbullet\hspace{1pt} Study behavioral ecology in Santa Monica Mts. (SMM) and La Selva Research Station\\
+\textbullet\hspace{1pt} Organize, lead, and digitize stream surveys of SMM for USGS and CA Park Services\\
+\textbullet\hspace{1pt} Write research proposals, review literature, and provide expert feedback on manuscripts\\
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2013--2013\\
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+\textit{Restoration Ecologist}, Mountains Restoration Trust\\
+\textbullet\hspace{1pt} Co-lead invasive crayfish removal project at Tapia Park (Malibu Creek)\\
+\textbullet\hspace{1pt} Supervise trapping, data collection, and removal of invasive \textit{Procambarus clarkii}\\
+\textbullet\hspace{1pt} Lead invasion ecology education project (hybrid format)\\
+\end{minipage}}\
+
+%Awarded Funds
+\csection{Awarded Funds}%
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2019
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$76,890.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{US Dept. of Agriculture}: Predicting establishment and impact of spotted lanternfly on trees across the USA (Co-written with and submitted by Matthew Helmus)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$300.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{American Society of Icthyologists and Herpetologists}: Storer Award (Conservation)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$200.00)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{Society for the Study of Amphibians and Reptiles}: Henri C. Seibert Award (Ecology)
+\end{minipage}}
+
+\main{\begin{minipage}[t]{0.06\textwidth}
+~
+\end{minipage}%
+\begin{minipage}[t]{0.13\linewidth}
+(\$1,187.50)
+\end{minipage}%
+\begin{minipage}[t]{0.80\textwidth}
+\textit{Misc. University of Oklahoma Graduate Studies and research travel grants}
+\end{minipage}}\\
+
+%Publications (missing HR notes)
+%\pagebreak			%had to manually do, since i am too lazy to create a formatting command
+\csection{Selected Publications}%
+\main{
+\vspace{-0.25in}
+
+\begin{etaremune}[leftmargin=3.30ex, listparindent=0pt,itemindent=-1ex]
+
+ %\item \textbf{Huron, NA}, Helmus, MR. \textit{in prep}. Predicting establishment and impact of spotted lanternfly on trees across the USA.
+% \item \textbf{Huron, NA}, Hedges, SB, Helmus, MR. \textit{in prep}. Anthropocene extinction on an adaptive landscape: Shifting loss in a genus of island lizards.  
+ \item \textbf{Huron, NA}, Behm, JE, Helmus, MR. 2022. Paninvasion severity assessment of a U.S. grape pest to disrupt the global wine market. Communications Biology, 5:1--11. \href{https://doi.org/10.1038/s42003-022-03580-w}{\color{blue}doi:10.1038/s42003-022-03580-w}.
+ \item Warren, DL, Matzke, NJ, Cardillo, M, Baumgartner, J, Beaumont, LJ, Turelli, M, Glor, R, \textbf{Huron, NA}, Sim\~oes, M, Iglesias, TL, Piquet, JC, Dinnage, R. 2021. ENMTools 1.0: an R package for comparative ecological biogeography. Ecography. \href{https://dx.doi.org/10.1111/ecog.05485}{\color{blue}doi:10.1111/ecog.05485}.
+ %\item Marhanka, EC, Watters, JL, \textbf{Huron, NA}, McMillin, SL, Winfrey, CC, Curtis, DJ, Davis, DR, Farkas, JK, Kerby, JL, Siler, CD. 2017. Detection of high prevalence of \textit{Batrachochytrium dendrobatidis} in amphibians from southern Oklahoma, USA. Herpetological Review 48:70--74. \href{https://scholar.google.com/scholar_lookup?title=Detection+of+high+prevalence+of+Batrachochytrium+dendrobatidis+in+amphibians+from+southern+Oklahoma,+USA.&author=EC+Marhanka&author=JL+Watters&author=NA+Huron&author=SL+McMillin&author=CC+Winfrey&author=DJ+Curtis&author=DR+Davis&author=JK+Farkas&author=JL+Kerby&author=CD.+Siler&volume=48&issue=1&publication_year=2017&pages=70-74}{\color{blue}Google Scholar}.
+ \item Siler, CD, Davis, DR, Freitas, ES, \textbf{Huron, NA}, Geheber, AD, Watters, JL, Penrod, ML, Pape{{\c{s}}}, M, Amrein, A, Anwar, A, Cooper, D, Hein, T, Manning, A, Patel, N, Pinaroc, L, Diesmos, AC, Diesmos, ML, Oliveros, CH, Brown, RM. 2016. Description of a new species of Slender Skink of the \textit{Brachymeles bonitae} Complex (Reptilia: Squamata: Scincidae) from the northern Philippines. Zootaxa, 4132:15--29. \href{https://doi.org/10.11646/zootaxa.4132.1.2}{\color{blue}doi:10.11646/zootaxa.4132.1.2}.
+ \item \textbf{Huron, NA}, Realubit, NDC, Cobb, KA, Brown, JC, Bergmann, P, Morinaga, G, Diesmos, AC, Diesmos, ML, Brown, RM, Siler, CD. 2016. Discovery of new island populations of the recently described False Geckos (\textit{Pseudogekko pungkaypinit} and \textit{Pseudogekko ditoy}): Conservation implications for the eastern Philippines. Herpetological Review, 47:1--4. \href{https://github.com/nahuron/publication_pdfs/blob/main/2016.Huron.etal.Pseudogekko.Samar.pdf}{\color{blue}PDF}.
+ \item Diesmos, AC, Waters, JL, \textbf{Huron, NA}, Davis, DR, Alcala, AC, Crombie, RI, Afuang, LE, Gee-Das, G, Sison, RV, Sanguila, MB, Penrod, ML, Labonte, MJ, Davey, CS, Leone, EA, Diesmos, ML, Sy, EY, Welton, LJ, Brown, RM, Siler, CS. 2015. Amphibians of the Philippines, part I: checklist of the species. Proceedings of the California Academy of Sciences, 62:457--539. \href{https://scholar.google.com/scholar_lookup?title=Amphibians+of+the+Philippines%2C+part+I%3A+checklist+of+the+species&author=AC+Diesmos&author=JL+Watters&author=NA+Huron&author=DR+Davis&author=AC+Alcala&author=RI+Crombie&author=LE+Afuang&author=G+Gee-Das&author=RV+Sison&author=MB+Sanguila&author=ML+Penrod&publication_year=2015}{\color{blue}Google Scholar}.
+% \item Davis, DR, Watters, JL, K{\"o}hler, G, Whitsett, C, \textbf{Huron, NA}, Brown, RM, Diesmos, AC, Siler, CD. 2015. Redescription of the rare Philippine slender gecko \textit{Pseudogekko brevipes} (Reptilia: Squamata: Gekkonidae) and description of a new species. Zootaxa, 4020:357--374. \href{https://doi.org/10.11646/zootaxa.4020.2.7}{\color{blue}doi:10.11646/zootaxa.4020.2.7}.
+\end{etaremune}}
+
+
+%\pagebreak
+%Presentations
+\csection{Presentations}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2020
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Ecological Society of America Annual Meeting, Virtual Meeting (U.S.A.)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Joint Meetings of Ichthyologists and Herpetologists, Univ. of Rochester (Rochester, NY)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2018
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Mid-Atlantic Ecological Society of America, Rutgers Univ. - Newark Campus (Newark, NJ)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2015
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Society for the Study of Amphibians and Reptiles, Univ. of Kansas (Lawrence, KS)
+\end{minipage}}%
+
+\main{\begin{minipage}[t]{0.12\textwidth}
+2010--2013
+\end{minipage}%
+\begin{minipage}[t]{0.85\textwidth}
+Southern California Conference of Undergraduate Research (SCCUR), CA
+\end{minipage}}\\
+
+%\vspace{1ex}
+\vspace{1ex}
+\centerline{\normalfont\Large{{*Comprehensive Curriculum Vitae available upon request.*}}}
+
+%REFERENCES
+%\centerline{\normalfont\Large{{*References available upon request.*}}}
+%\pagebreak
+\csection{References}
+
+\main{\large\textbf{Dr. Matthew R. Helmus}}
+\sub{Assistant Professor}
+\sub{Department of Biology, Temple University}
+%\sub{1925 N. 12th Street, Suite 502, Philadelphia, PA 19122}
+\sub{215-204-5989}
+\sub{\href{mailto:mrhelmus@temple.edu}{\color{blue}mrhelmus@temple.edu}}\\
+
+\main{\large\textbf{Dr. S. Blair Hedges}}
+\sub{Laura H. Carnell Professor of Biodiversity}
+\sub{Department of Biology, Temple University}
+%\sub{1925 N. 12th Street, Suite 502, Philadelphia, PA 19122}
+\sub{215-204-7238}
+\sub{\href{mailto:sbh@temple.edu}{\color{blue}sbh@temple.edu}}\\
+
+\main{\large\textbf{Dr. Dan L. Warren}}
+\sub{Staff Scientist}
+\sub{Okinawa Institute of Science and Technology}
+\sub{530-848-3809
+\sub{\href{mailto:dan.l.warren@gmail.com}{\color{blue}dan.l.warren@gmail.com}}\\
+
+%\main{\textbf{Dr. Daniel D. Spaeth}}
+%\sub{Associate Professor, Department of Biology, Temple University\\
+%1900 North 12th Street, BioLife Building  248Q, Philadelphia, PA 19122\\
+%215-204-6722\\
+%\href{mailto:spaceman@temple.edu}{\color{blue}spaceman@temple.edu}}\\
+
+\end{document}
