@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  20 JUL 2022 15:41
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  29 JUL 2022 11:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_Resume_Main.tex
@@ -692,29 +692,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--291
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-
- []
-
-
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -724,31 +701,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3] (./NAH_Resume_Main.aux)
+[2] (./NAH_Resume_Main.aux)
 Package rerunfilecheck Info: File `NAH_Resume_Main.out' has not changed.
-(rerunfilecheck)             Checksum: D5805ACD0F55261D492CAC88B4EEC8A1;724.
+(rerunfilecheck)             Checksum: C6015C723F9FA8D4B8935E0698041AE2;630.
 )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 318 ({)
-### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 13780 strings out of 478531
+ 13775 strings out of 478531
  100000,794899 words of node,token memory allocated
  438 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:580,3:307,4:58,5:150,6:113,7:7885,8:22,9:426,10:25,11:618
- 33200 multiletter control sequences out of 65536+600000
- 45 fonts using 13575975 bytes
- 83i,12n,85p,1016b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+   avail lists: 2:546,3:297,4:58,5:145,6:110,7:7874,8:21,9:419,10:25,11:618
+ 33197 multiletter control sequences out of 65536+600000
+ 43 fonts using 12460119 bytes
+ 83i,12n,85p,1016b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supp
 lemental/Arial.ttf></System/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_Resume_Main.pdf (3 pages, 81308 bytes).
+Output written on NAH_Resume_Main.pdf (2 pages, 77852 bytes).
 
-PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 131072)
- 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
+ 49 words of extra memory for PDF output out of 10000 (max. 100000000)
 
