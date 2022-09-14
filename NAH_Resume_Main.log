@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  24 AUG 2022 08:56
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  14 SEP 2022 10:38
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_Resume_Main.tex
@@ -682,12 +682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--188
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--232
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--291
+Underfull \hbox (badness 10000) in paragraph at lines 233--242
 
  []
 
@@ -709,19 +704,19 @@ Package rerunfilecheck Info: File `NAH_Resume_Main.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  13775 strings out of 478531
  100000,794899 words of node,token memory allocated
- 438 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
- 5 attribute_list, 2 write nodes
-   avail lists: 2:546,3:297,4:58,5:145,6:110,7:7872,8:21,9:419,10:25,11:612
+ 448 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 53 glue_spec,
+ 6 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 2:556,3:303,4:58,5:143,6:117,7:7636,8:22,9:437,10:25,11:612
  33197 multiletter control sequences out of 65536+600000
  43 fonts using 12460119 bytes
  83i,12n,85p,1016b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supp
 lemental/Arial.ttf></System/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_Resume_Main.pdf (2 pages, 77815 bytes).
+Output written on NAH_Resume_Main.pdf (2 pages, 77186 bytes).
 
-PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 131072)
  49 words of extra memory for PDF output out of 10000 (max. 100000000)
 

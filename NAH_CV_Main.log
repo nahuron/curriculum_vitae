@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  24 AUG 2022 08:55
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  14 SEP 2022 10:20
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main.tex
@@ -186,6 +186,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 )
+Package hyperref Info: Option `breaklinks' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
 Package hyperref Info: Hyper index ON on input line 4200.
@@ -267,10 +268,27 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count274
 \enitdp@description=\count275
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etaremune/etaremune.sty
+Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count276
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@EM@itemctr=\count277
+\c@EM@etaremunectr=\count278
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count276
-\cp@tempcnt=\count277
+\c@cp@cntr=\count279
+\cp@tempcnt=\count280
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -295,8 +313,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
@@ -306,15 +324,15 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
+\etb@tempcnta=\count281
 )
-\csq@reset=\count279
-\csq@gtype=\count280
-\csq@glevel=\count281
-\csq@qlevel=\count282
-\csq@maxlvl=\count283
-\csq@tshold=\count284
-\csq@ltx@everypar=\toks21
+\csq@reset=\count282
+\csq@gtype=\count283
+\csq@glevel=\count284
+\csq@qlevel=\count285
+\csq@maxlvl=\count286
+\csq@tshold=\count287
+\csq@ltx@everypar=\toks23
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -325,23 +343,6 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/etaremune/etaremune.sty
-Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
-)
-\XKV@depth=\count285
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\c@EM@itemctr=\count286
-\c@EM@etaremunectr=\count287
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language2
@@ -612,85 +613,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--113
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
 
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 152--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 157--161
 \TU/Arial(0)/m/n/10.95 Among Am-phib-ian Species of Great-est Con-ser-va-tion Ne
 ed---Amphibian Sur-veys of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--214
+Underfull \hbox (badness 10000) in paragraph at lines 235--239
 
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 2
-16.
+41.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -702,32 +698,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
 
  []
 
@@ -740,33 +716,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Overfull \hbox (8.26015pt too wide) in paragraph at lines 265--266
-[]\TU/Arial(0)/m/n/10.95 San-guila, MB, Re-alu-bit, NDC, Dies-mos, ML, Lorenzo 
-II, A, De Lay-ola, A, Brown, JC, Cobb, KA, Bergmann,
- []
-
-
-Overfull \hbox (11.7686pt too wide) in paragraph at lines 268--269
-\TU/Arial(0)/m/n/10.95 Gekkonidae) and de-scrip-tion of a new species. Zootaxa, 4020:357--374. [][]doi:10.11646/zootaxa.4020.2.7[][]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 349--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--393
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 404--410
 
  []
 
@@ -779,27 +734,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 444--450
+Underfull \hbox (badness 10000) in paragraph at lines 556--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--523
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
+Underfull \hbox (badness 10000) in paragraph at lines 603--609
 
  []
 
@@ -812,37 +767,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 640--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--588
+Underfull \hbox (badness 10000) in paragraph at lines 656--660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--623
+Underfull \hbox (badness 10000) in paragraph at lines 666--670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--635
+Underfull \hbox (badness 10000) in paragraph at lines 676--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--645
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--656
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--665
+Underfull \hbox (badness 10000) in paragraph at lines 687--690
 
  []
 
@@ -858,26 +803,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5] (./NAH_CV_Main.aux)
 Package rerunfilecheck Info: File `NAH_CV_Main.out' has not changed.
-(rerunfilecheck)             Checksum: F2917C2203C583A9D47B6C14C07CF5A8;1539.
+(rerunfilecheck)             Checksum: 44022A808DF11FEDC4D9709BD22C63A9;1544.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13793 strings out of 478531
+ 13792 strings out of 478531
  100000,794899 words of node,token memory allocated
- 438 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 53 glue_spec,
- 5 attribute_list, 2 write nodes
-   avail lists: 2:550,3:310,4:72,5:148,6:163,7:7942,8:18,9:487,10:25,11:620
- 33206 multiletter control sequences out of 65536+600000
+ 458 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 7 attribute, 53 glue_spec,
+ 7 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 2:598,3:335,4:86,5:172,6:178,7:7989,8:22,9:588,10:25,11:567
+ 33205 multiletter control sequences out of 65536+600000
  46 fonts using 13829903 bytes
- 83i,12n,85p,1012b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,12n,85p,1012b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main.pdf (5 pages, 104767 bytes).
+Output written on NAH_CV_Main.pdf (5 pages, 104107 bytes).
 
-PDF statistics: 126 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
