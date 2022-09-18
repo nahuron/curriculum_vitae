@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  14 SEP 2022 10:20
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  18 SEP 2022 14:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_CV_Main.tex
@@ -812,17 +812,17 @@ Here is how much of LuaTeX's memory you used:
  458 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 7 attribute, 53 glue_spec,
  7 attribute_list, 2 write, 2 pdf_action nodes
-   avail lists: 2:598,3:335,4:86,5:172,6:178,7:7989,8:22,9:588,10:25,11:567
+   avail lists: 2:598,3:335,4:90,5:176,6:178,7:8063,8:24,9:588,10:25,11:567
  33205 multiletter control sequences out of 65536+600000
  46 fonts using 13829903 bytes
  83i,12n,85p,1012b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Bold Italic.ttf></System/Library/Fonts
 /Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></S
 ystem/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_CV_Main.pdf (5 pages, 104107 bytes).
+Output written on NAH_CV_Main.pdf (5 pages, 104173 bytes).
 
-PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
