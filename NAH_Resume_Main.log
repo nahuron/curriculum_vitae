@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  14 SEP 2022 10:38
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  11 JUN 2024 14:31
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_Resume_Main.tex
@@ -597,13 +597,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
+Underfull \hbox (badness 1014) in paragraph at lines 133--138
+\TU/Arial(0)/m/n/10.95 •  Re-quest, san-i-tize/tidy, and val-i-date myr-iad re
+-la-tional database ex-ports to en-sure
  []
 
 
@@ -617,50 +618,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+Underfull \hbox (badness 10000) in paragraph at lines 144--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 165--168
 \TU/Arial(0)/m/n/10.95 Among Am-phib-ian Species of Great-est Con-ser-va-tion Ne
 ed---Amphibian Sur-veys of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
+Underfull \hbox (badness 10000) in paragraph at lines 184--189
 
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 1
-80.
+91.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -672,17 +673,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--188
+Underfull \hbox (badness 10000) in paragraph at lines 195--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--242
+Underfull \hbox (badness 10000) in paragraph at lines 244--253
 
  []
 
@@ -707,13 +708,13 @@ Here is how much of LuaTeX's memory you used:
  448 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 53 glue_spec,
  6 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 2:556,3:303,4:58,5:143,6:117,7:7636,8:22,9:437,10:25,11:612
+   avail lists: 2:556,3:303,4:58,5:143,6:117,7:7636,8:22,9:437,10:25,11:608
  33197 multiletter control sequences out of 65536+600000
  43 fonts using 12460119 bytes
  83i,12n,85p,1016b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supp
 lemental/Arial.ttf></System/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_Resume_Main.pdf (2 pages, 77186 bytes).
+Output written on NAH_Resume_Main.pdf (2 pages, 77400 bytes).
 
 PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
