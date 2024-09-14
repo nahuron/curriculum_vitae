@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  11 JUN 2024 14:31
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.4)  14 SEP 2024 16:09
  restricted system commands enabled.
  file:line:error style messages enabled.
 **NAH_Resume_Main.tex
@@ -699,7 +699,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2] (./NAH_Resume_Main.aux)
 Package rerunfilecheck Info: File `NAH_Resume_Main.out' has not changed.
-(rerunfilecheck)             Checksum: C6015C723F9FA8D4B8935E0698041AE2;630.
+(rerunfilecheck)             Checksum: E8080C69C77903E5FD163284B05316E5;668.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -708,13 +708,13 @@ Here is how much of LuaTeX's memory you used:
  448 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 53 glue_spec,
  6 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 2:556,3:303,4:58,5:143,6:117,7:7636,8:22,9:437,10:25,11:608
+   avail lists: 2:556,3:303,4:58,5:143,6:117,7:7548,8:22,9:437,10:25,11:608
  33197 multiletter control sequences out of 65536+600000
  43 fonts using 12460119 bytes
  83i,12n,85p,1016b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supp
 lemental/Arial.ttf></System/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on NAH_Resume_Main.pdf (2 pages, 77400 bytes).
+Output written on NAH_Resume_Main.pdf (2 pages, 77706 bytes).
 
 PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
