@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.5.9)  6 JUN 2026 15:05
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.5.9)  6 JUN 2026 15:10
  restricted system commands enabled.
 **NAH_CV_Main.tex
 (./NAH_CV_Main.tex
@@ -707,12 +707,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--369
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 458--459
-[]\TU/Arial(0)/m/n/10.95 So-ci-ety for the Study of Am-phib-ians and Rep-tiles 
-Meet-ing, Uni-ver-sity of Kansas
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -722,22 +716,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 575--580
+Underfull \hbox (badness 1783) in paragraph at lines 472--473
+[]\TU/Arial(0)/m/n/10.95 So-ci-ety for the Study of Am-phib-ians and Rep-tiles 
+Meet-ing, Uni-ver-sity of Kansas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--594
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
 
  []
 
@@ -751,37 +751,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 624--630
+Underfull \hbox (badness 10000) in paragraph at lines 638--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--667
+Underfull \hbox (badness 10000) in paragraph at lines 675--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--680
+Underfull \hbox (badness 10000) in paragraph at lines 691--694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--690
+Underfull \hbox (badness 10000) in paragraph at lines 700--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--700
+Underfull \hbox (badness 10000) in paragraph at lines 710--714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--711
+Underfull \hbox (badness 10000) in paragraph at lines 720--725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--720
+Underfull \hbox (badness 10000) in paragraph at lines 731--734
 
  []
 
@@ -811,14 +811,14 @@ Here is how much of LuaTeX's memory you used:
  471 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 7 attribute, 55 glue_spec,
  7 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 2:803,3:424,4:78,5:74,6:159,7:9066,9:562,10:25,11:862
+   avail lists: 2:823,3:424,4:78,5:74,6:164,7:9066,9:576,10:25,11:862
  36982 multiletter control sequences out of 65536+600000
  37 fonts using 4975575 bytes
  79i,12n,92p,1012b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/truetype/msttcorefonts/arialbi.ttf></usr/share/fonts/truetype/
 msttcorefonts/ariali.ttf></usr/share/fonts/truetype/msttcorefonts/arial.ttf></us
 r/share/fonts/truetype/msttcorefonts/arialbd.ttf>
-Output written on NAH_CV_Main.pdf (5 pages, 100983 bytes).
+Output written on NAH_CV_Main.pdf (5 pages, 101090 bytes).
 
 PDF statistics: 128 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
