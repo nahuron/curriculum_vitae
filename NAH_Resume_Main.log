@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.5.9)  6 JUN 2026 15:09
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.5.9)  7 JUN 2026 17:15
  restricted system commands enabled.
 **NAH_Resume_Main.tex
 (./NAH_Resume_Main.tex
@@ -484,26 +484,26 @@ Package csquotes Info: ... none found.
  (./NAH_Resume_Main.aux)
 \openout1 = NAH_Resume_Main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -539,7 +539,7 @@ LaTeX Font Info:    ... okay on input line 80.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 83.
 (./NAH_Resume_Main.out) (./NAH_Resume_Main.out)
 \@outlinefile=\write3
 
@@ -561,63 +561,38 @@ Package hyperref Info: Link coloring OFF on input line 80.
 ) (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
+Underfull \hbox (badness 1776) in paragraph at lines 176--179
+\TU/Arial(0)/m/n/10.95 •  Led in-ter-na-tional field-work sur-vey-ing Philip-p
+ine her-peto-fauna; co-authored peer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 165--168
-\TU/Arial(0)/m/n/10.95 Among Am-phib-ian Species of Great-est Con-ser-va-tion Ne
-ed---Amphibian Sur-veys of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
@@ -626,7 +601,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--189
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 1
-91.
+81.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -637,17 +612,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--253
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
@@ -668,22 +653,22 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `NAH_Resume_Main.out' has not changed.
-(rerunfilecheck)             Checksum: E8080C69C77903E5FD163284B05316E5;668.
+(rerunfilecheck)             Checksum: 9731211C9901B6B77496C89F17407B2A;822.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14222 strings out of 475512
- 100000,953878 words of node,token memory allocated
- 451 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 55 glue_spec,
+ 14219 strings out of 475512
+ 125007,953878 words of node,token memory allocated
+ 446 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 54 glue_spec,
  5 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:702,3:399,4:58,5:65,6:123,7:9971,9:520,10:25,11:883
- 36975 multiletter control sequences out of 65536+600000
+   avail lists: 2:476,3:287,4:63,5:76,6:70,7:12610,9:420,10:23,11:1282
+ 36972 multiletter control sequences out of 65536+600000
  34 fonts using 4441951 bytes
  79i,12n,92p,1016b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/truetype/msttcorefonts/ariali.ttf></usr/share/fonts/truetype/m
 sttcorefonts/arial.ttf></usr/share/fonts/truetype/msttcorefonts/arialbd.ttf>
-Output written on NAH_Resume_Main.pdf (2 pages, 73034 bytes).
+Output written on NAH_Resume_Main.pdf (2 pages, 74113 bytes).
 
 PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
